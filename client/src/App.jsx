@@ -266,12 +266,45 @@ if (showAdminLogin) {
           </div>
 
           <div className="hero-visual">
-            <div className="main-visual-card">
-              <div className="visual-emoji">🚀</div>
-              <h3>Ideas into action.</h3>
-              <p>One workshop at a time.</p>
-            </div>
-          </div>
+  <div className="feature-card-grid">
+    <div className="feature-card feature-card-one">
+      <span className="feature-emoji">🚀</span>
+      <h3>Ideas into action.</h3>
+      <p>One workshop at a time.</p>
+      <span className="feature-number">01 / INNOVATE</span>
+    </div>
+<div className="feature-card feature-card-two">
+  <span className="feature-emoji">💡</span>
+  <h3>Think beyond limits.</h3>
+  <p>Big ideas start here.</p>
+  <span className="feature-number">02 / IMAGINE</span>
+</div>
+<div className="feature-card feature-card-three">
+  <span className="feature-emoji">🤖</span>
+  <h3>Build the future.</h3>
+  <p>Explore what's possible.</p>
+  <span className="feature-number">03 / EXPLORE</span>
+</div>
+<div className="feature-card feature-card-four">
+  <span className="feature-emoji">🎨</span>
+  <h3>Make it beautiful.</h3>
+  <p>Creativity meets technology.</p>
+  <span className="feature-number">04 / CREATE</span>
+</div>
+<div className="feature-card feature-card-five">
+  <span className="feature-emoji">💻</span>
+  <h3>Code your dreams.</h3>
+  <p>Turn logic into reality.</p>
+  <span className="feature-number">05 / BUILD</span>
+</div>
+<div className="feature-card feature-card-six">
+  <span className="feature-emoji">🔥</span>
+  <h3>Create something epic.</h3>
+  <p>Your next chapter starts now.</p>
+  <span className="feature-number">06 / ACHIEVE</span>
+</div>
+  </div>
+</div>
         </section>
 
         <section className="workshops-section" id="workshops">
