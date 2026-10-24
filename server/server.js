@@ -50,6 +50,11 @@ app.post('/api/admin/login', async (req, res) => {
             password,
             process.env.ADMIN_PASSWORD_HASH
         );
+       console.log('Admin login diagnostic:', {
+    usernameMatches,
+    passwordMatches
+});
+
 
         if (!usernameMatches || !passwordMatches) {
             return res.status(401).json({
